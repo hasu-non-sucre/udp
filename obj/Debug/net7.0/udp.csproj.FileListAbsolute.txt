@@ -1,0 +1,15 @@
+E:\work\cs\udp\bin\Debug\net7.0\udp.exe
+E:\work\cs\udp\bin\Debug\net7.0\udp.deps.json
+E:\work\cs\udp\bin\Debug\net7.0\udp.runtimeconfig.json
+E:\work\cs\udp\bin\Debug\net7.0\udp.dll
+E:\work\cs\udp\bin\Debug\net7.0\udp.pdb
+E:\work\cs\udp\obj\Debug\net7.0\udp.csproj.AssemblyReference.cache
+E:\work\cs\udp\obj\Debug\net7.0\udp.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\cs\udp\obj\Debug\net7.0\udp.AssemblyInfoInputs.cache
+E:\work\cs\udp\obj\Debug\net7.0\udp.AssemblyInfo.cs
+E:\work\cs\udp\obj\Debug\net7.0\udp.csproj.CoreCompileInputs.cache
+E:\work\cs\udp\obj\Debug\net7.0\udp.dll
+E:\work\cs\udp\obj\Debug\net7.0\refint\udp.dll
+E:\work\cs\udp\obj\Debug\net7.0\udp.pdb
+E:\work\cs\udp\obj\Debug\net7.0\udp.genruntimeconfig.cache
+E:\work\cs\udp\obj\Debug\net7.0\ref\udp.dll
