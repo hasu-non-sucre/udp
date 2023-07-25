@@ -9,13 +9,12 @@ namespace UdpSenderExample
     {
         static void Main()
         {
-            string remoteIPAddress = "192.168.11.9"; // 送信先のIPアドレス
+            string remoteIPAddress = "192.168.11.7"; // 送信先のIPアドレス
             int remotePort = 8888; // 送信先のポート番号
 
-            string filePath = "sample.csv"; // csvファイルのパスを指定
+            string filePath = "../../SerialReadCSVOut/test.csv"; // csvファイルのパスを指定
 
             UdpClient udpClient = new UdpClient();
-
             try
             {
                 Console.WriteLine("UDPクライアントを開始しました。");
@@ -64,14 +63,19 @@ namespace UdpSenderExample
                                 string line = sr.ReadLine(); // 行を読み取る
                                 string[] speeds = line.Split(',');
 
+                                // string msg = speeds[0] + ", 距離: " + speeds[1];
+
                                 foreach(string item in speeds)
                                 {
                                     Console.Write(item + "\t");
 
-                                    byte[] data = System.Text.Encoding.UTF8.GetBytes(item);
+                                    byte[] data = System.Text.Encoding.UTF8.GetBytes(line);
                                     udpClient.Send(data, data.Length, new IPEndPoint(IPAddress.Parse(remoteIPAddress), remotePort));
-                                    System.Threading.Thread.Sleep(1000);
+                                    System.Threading.Thread.Sleep(500);
                                 }
+                                // byte[] data = System.Text.Encoding.UTF8.GetBytes(msg);
+                                // udpClient.Send(data, data.Length, new IPEndPoint(IPAddress.Parse(remoteIPAddress), remotePort));
+                                // System.Threading.Thread.Sleep(500);
                                 Console.WriteLine();
                             }
                         }

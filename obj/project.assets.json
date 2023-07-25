@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mutopapa\\.nuget\\packages\\": {}
+    "/Users/user/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\work\\cs\\udp\\udp.csproj",
+      "projectUniqueName": "/Users/user/Desktop/udp_pc/udp/udp.csproj",
       "projectName": "udp",
-      "projectPath": "E:\\work\\cs\\udp\\udp.csproj",
-      "packagesPath": "C:\\Users\\mutopapa\\.nuget\\packages\\",
-      "outputPath": "E:\\work\\cs\\udp\\obj\\",
+      "projectPath": "/Users/user/Desktop/udp_pc/udp/udp.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/Desktop/udp_pc/udp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mutopapa\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/user/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
